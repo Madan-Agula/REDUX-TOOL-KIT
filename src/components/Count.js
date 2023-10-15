@@ -10,7 +10,7 @@ export default function Count(){
             <button onClick={()=>dispatch(decrement())}>-</button>
             <button onClick={()=>dispatch(reset({
                 value : 0
-            }))}>Reset</button>
+            }))}>reset</button>
             <button onClick={()=>dispatch(increment())}>+</button>
         </div>
 }
